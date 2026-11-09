@@ -1,0 +1,39 @@
+{
+  "skill": "wechat-article-reader",
+  "source_local_commit": "24ded45e000584f0b068a34550115ce7817622f3",
+  "source_baseline_commit": "acb7566234fb546be037cdd6374e3955c8cfe220",
+  "public_repository": "https://github.com/xingyun7842/xignyun-wechat-article-reader",
+  "reason": "Publish caller-configurable skill sources with an agent execution index and explicit version synchronization contract.",
+  "validation": "Python source syntax and package paths checked; no live service, credential or business operation was run.",
+  "portable_document_changes": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "46ae43b9b7414cd595a1598344de626d8e8b2ae682c6ec5a471c32cfcb445e6f"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "2ef828933ec3f32095e3019f28057dd214dd3bd3b32b4fffb67b0e6c929660eb"
+    },
+    {
+      "path": "scripts/read_article.py",
+      "sha256": "51c8928506f365a8f5d4d4c98e5ba480a4f628c30d48d67853dd4a21d1f7bb29"
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "abdabea2e33bfe79f0ed0e35524235aac3e17791b4cf6380bf5fcb15bad5ffa7"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "sha256": "8a57d3071c297ef59c4e501fa968d9c6ca16501c3c226ea17f693e29643d1fc5"
+    },
+    {
+      "path": "skill-publish.json",
+      "sha256": "c54d022153c252e4e88e8724579b826f83a96ba75a7fbe9683f68e729bc783ef"
+    }
+  ]
+}

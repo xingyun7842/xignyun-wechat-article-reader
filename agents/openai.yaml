@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信公众号正文直读"
+  short_description: "直接读取已给公众号链接，验证正文并保留图片位置，不调用付费抓取接口"
+  default_prompt: "使用 $wechat-article-reader 读取这篇公众号文章并解释其内容。"

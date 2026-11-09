@@ -1,0 +1,27 @@
+# wechat-article-reader
+
+> Agent execution index. Read a caller-supplied public WeChat article URL and preserve text, source HTML and image positions.
+
+Read SKILL.md before use. Apply the caller's actual request and authorization; do not infer permissions from repository examples.
+
+## Required context
+
+- Inputs: the current task, permitted scope, and required source/destination paths or time window.
+- Environment: Python 3 standard library; normal browser tools may be needed for a browser-rendered fallback. No paid fetch key is required.
+- Read only references needed by the selected mode. Resolve placeholders against the caller environment.
+- Preserve input evidence; distinguish observed facts, inferred information and unverified outcomes.
+- Verify actual saved output and the selected mode's completion criteria. A ready command, generated draft or successful process is not proof of business completion.
+
+## Authoritative entry
+
+- [SKILL.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-article-reader/main/SKILL.md): capability, activation, mode-specific workflow and boundaries.
+
+## Execution references
+
+- [scripts/read_article.py](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-article-reader/main/scripts/read_article.py): Use --url and a fresh --output-dir; optionally use --html-file from a legitimate browser export.
+
+## Maintenance
+
+- [PUBLISHING.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-article-reader/main/PUBLISHING.md): repository binding, version reasons and synchronization checks.
+- [skill-publish.json](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-article-reader/main/skill-publish.json): public repository configuration.
+- [RELEASE_MANIFEST.json](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-article-reader/main/RELEASE_MANIFEST.json): source version and export checks.
